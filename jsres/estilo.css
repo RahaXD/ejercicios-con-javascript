@@ -1,0 +1,98 @@
+body
+{
+	color: white;
+}
+#formulario
+{
+	width: 700px;
+	height: 200px;
+}
+#input-altura, #input-base
+{
+	padding: 10px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
+}
+.btn
+{
+	padding: 10px;
+	margin: 10px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+	background: #dd8e30;
+	border-radius: 5px;
+	border: 2px solid #0016b0;
+	width: 100%;
+}
+.btn:hover
+{
+	color: #fdfafa;
+	background: #1883ba;
+}
+#numerouno
+{
+	background: #efe7bb;
+	float: left;
+	left: 110px;
+	position: absolute;
+}
+#numerodos
+{
+    background: #efe7bb;
+    float: left;
+    left: 110px;
+    position: absolute;
+}
+#numerotres
+{
+    background: #efe7bb;
+    float: left;
+    left: 110px;
+    position: absolute;
+}
+#numerocuatro
+{
+    background: #efe7bb;
+    float: left;
+    left: 110px;
+    position: absolute;
+}
+#numerocinco
+{
+    background: #efe7bb;
+    float: left;
+    left: 110px;
+    position: absolute;
+}
+#numeroseis
+{
+    background: #efe7bb;
+    float: left;
+    left: 110px;
+    position: absolute;
+}
+#numerosiete
+{
+    background: #efe7bb;
+    float: left;
+    left: 110px;
+    position: absolute;
+}
+#numeroocho
+{
+    background: #efe7bb;
+    float: left;
+    left: 110px;
+    position: absolute;
+}
+label
+{
+	padding: 1px;
+}
+#subtitulo
+{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	text-transform: uppercase;
+}

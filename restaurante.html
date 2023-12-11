@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="iso-8859-1">
+  <meta name="description" content="JQUERY">
+  <meta name="keywords" content="HTML, CSS, JavaScript, jquery">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <meta charset="utf-8">
+  <title>toggle demo</title>
+  <link rel="stylesheet" href="estilos.css"> 
+  
+</head>
+<body>
+  <section id="seccion">
+  <div id="agrupar">
+    <header id="cabecera">
+      <div id="logo">
+        <span class="logotexto1">EJERCICIOS CON:</span><span class="logotexto2"> JQUERY</span>
+      </div>
+      <div id="logotexto">
+        Elija uno de las opciones en el menu para ver el Ejercicio
+      </div>
+    </header>
+    <nav id="menu">
+      <ul>
+        <a href="index.html">IF</a></li>
+        <a href="sumatoria.html">SUMATORIA</a></li>
+        <a href="triangulo.html">TRIANGULO</a></li>
+        <a href="par.html">PAR O IMPAR</a></li>
+        <a href="semana.html">SEMANA</a></li>
+        <a href="calculadora.html">CALCULADORA</a></li>
+        <a href="restaurante.html">RESTAURANTE</a></li>
+      </ul>
+    </nav>
+  </div>
+<section id="menurestaurante">
+  <h1>RESTAURANTE MI CASA</h1>
+  <form action="../form-result.php" target="_blank">
+
+    <p>Cliente: <input type="text" name="nombrecompleto"></p>
+  
+    <p>Fecha: <input type="text" name="nombrecompleto"></p>
+<input type="submit" value="CONTINUAR">
+</form>
+    <h2></p>Elija un plato </h2>
+    <section>
+      <button>Ver platos</button>
+      <p1><h3>1)...Chicharron...........      45Bs</h3>
+      <h3>2)...Picante de Pollo....      35Bs</h3>
+      <h3>3)...Chanqa..................      30Bs</h3>
+      <h3>4)...Pollo al Horno.......   25Bs</h3></p1>
+      <div id="platos">
+        <label>Intruduzca el numero de plato</label>
+        <input type="text" name="numero" id="plato" required placeholder="plato">
+      </div>
+      <div id="cantidad">
+        <label>Cuantos platos quiere?? </label>
+        <input type="number" name="cantidad" id="cuantos? " required placeholder="cantidad">
+      </div>
+             
+      <script>
+      $( "button" ).first().click(function() {
+        $( "p1" ).first().fadeToggle( "slow", "linear" );
+      });
+      </script>
+
+    </section>
+</section>
+</section>
+</body>
+<script  src="jsres/script.js"></script>
+</html>

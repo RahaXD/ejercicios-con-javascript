@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="iso-8859-1">
+  <meta name="description" content="JQUERY">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript, jquery">
+  <meta charset="utf-8">
+  <title>toggle demo</title>
+  <link rel="stylesheet" href="estilos.css"> 
+  <link rel="stylesheet" href="calculadora/css/styles.css"> 
+  
+</head>
+<body>
+  <section id="seccion">
+  <div id="agrupar">
+    <header id="cabecera">
+      <div id="logo">
+        <span class="logotexto1">EJERCICIOS CON:</span><span class="logotexto2"> JQUERY</span>
+      </div>
+      <div id="logotexto">
+        Elija uno de las opciones en el menu para ver el Ejercicio
+      </div>
+    </header>
+    <nav id="menu">
+      <ul>
+        <a href="index.html">IF</a></li>
+        <a href="sumatoria.html">SUMATORIA</a></li>
+        <a href="triangulo.html">TRIANGULO</a></li>
+        <a href="par.html">PAR O IMPAR</a></li>
+        <a href="semana.html">SEMANA</a></li>
+        <a href="calculadora.html">CALCULADORA</a></li>
+        <a href="restaurante.html">RESTAURANTE</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="calculator">
+    <div class="window-controls">
+        <div class="window-controls--left">
+            <span>
+                <i class="demo-icon icon-calc"></i>
+            </span>
+            <span>Calculadora</span>
+        </div>
+        <div class="window-controls--right">
+            <span>
+                <i class="icon-window-minimize"></i>
+            </span>
+            <span>
+                <i class="icon-window-maximize"></i>
+            </span>
+            <span>
+                <i class="icon-cancel"></i>
+            </span>
+        </div>
+    </div>
+    <div class="display">
+       <input type="text" class="display__top" readonly>
+       <input type="text" class="display__bottom" readonly>
+    </div>
+    <div class="keyboard">
+        <button class="keyboard__btn" id="delete-one">&larr;</button>
+        <button class="keyboard__btn" id="ce">ce</button>
+        <button class="keyboard__btn" id="c">c</button>
+        <button class="keyboard__btn" id="div">/</button>
+        <button class="keyboard__btn" id="7">7</button>
+        <button class="keyboard__btn" id="8">8</button>
+        <button class="keyboard__btn" id="9">9</button>
+        <button class="keyboard__btn" id="mul">*</button>
+        <button class="keyboard__btn" id="4">4</button>
+        <button class="keyboard__btn" id="5">5</button>
+        <button class="keyboard__btn" id="6">6</button>
+        <button class="keyboard__btn" id="sub">-</button>
+        <button class="keyboard__btn" id="1">1</button>
+        <button class="keyboard__btn" id="2">2</button>
+        <button class="keyboard__btn" id="3">3</button>
+        <button class="keyboard__btn" id="sum">+</button>
+        <button class="keyboard__btn" id="0">0</button>
+        <button class="keyboard__btn" id="point">.</button>
+        <button class="keyboard__btn" id="equal">=</button>
+    </div>
+
+</section>
+</body>
+<script src="jscal/jquery-3.3.1.min.js"></script>
+<script src="jscal/scripts.js"></script>
+</html>
